@@ -22,12 +22,12 @@ img = cv2.imread(file_name,0)
 
 plt.subplot(1,2,1)
 plt.imshow(img,cmap='gray')
-plt.title('image')
+plt.title('Image')
 plt.xticks([])
 plt.yticks([])
 
 plt.subplot(1,2,2)
 plt.hist(img.ravel(),256,[0,256])
-plt.title('histogram')
+plt.title('Histogram Gray')
 
 plt.show()
